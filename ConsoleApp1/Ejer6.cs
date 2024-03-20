@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Class1
+    class Ejer6
     {
-        void Execute()
+        public void Execute()
         {
 
         int choice;
