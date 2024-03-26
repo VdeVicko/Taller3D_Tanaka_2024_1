@@ -1,23 +1,25 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Text;
+using ConsoleApp1;
 
 namespace ConsoleApp1
 {
-    class Rectangulo
+    class Rectangulo : Figura
     {
-        float baseRec { get; set; }
-        float heightRec { get; set; }
-        public Rectangulo(float b,float h)
+        private float height { get; set; }
+        private float width { get; set; }
+    public Rectangulo(float height,float width)
         {
-            baseRec = b;
-            heightRec = h;
+            this.height = height;
+            this.width = width;
         }
-
-        public float Area()
+        public override float CalculateArea()
         {
-            return baseRec * heightRec;
+            return height * width;
         }
 
     }
+
 }

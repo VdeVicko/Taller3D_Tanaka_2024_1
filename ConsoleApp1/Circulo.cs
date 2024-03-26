@@ -4,18 +4,18 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Circulo
+    class Circulo : Figura
     {
-        float Radius { get; set; }
-        public Circulo(float r)
-        {
-            Radius = r;
+        private float radius { get; set; }
 
+        public Circulo(float radius)
+        {
+            this.radius = radius;
         }
-        public  float Area()
-        {
-            return Radius * Radius * 3.14f;
 
+        public override float CalculateArea()
+        {
+            return radius * radius *3.14f;
         }
     }
 }

@@ -4,19 +4,20 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Triangulo
+    class Triangulo : Figura
     {
-        float baseTri { get; set; }
-        float heightTri { get; set; }
-        public Triangulo(float b,float h)
+        private float height { get; set; }
+        private float width { get; set; }
+
+        public Triangulo(float height, float width)
         {
-            baseTri = b;
-            heightTri = h;
+            this.height = height;
+            this.width = width;
         }
 
-        public float Area()
+        public override float CalculateArea()
         {
-            return baseTri * heightTri / 2f;
+            return height * width / 2f;
         }
     }
 }
