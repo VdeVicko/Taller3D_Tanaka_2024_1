@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Ejer3
     {
-        public void Execute()
+        public static void Execute()
         {
             float year;
             Console.WriteLine("Dame un año");

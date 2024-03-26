@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Ejer1
     {
-        public void Execute()
+        public static void Execute()
         {
             float b;
             float h;
@@ -16,16 +16,16 @@ namespace ConsoleApp1
             Console.WriteLine("Escribe el numero de la altura del rectangulo");
             h = float.Parse(Console.ReadLine());
 
-            Area(b, h);
-            Perimetro(b, h);
+            Ejer1.Area(b, h);
+            Ejer1.Perimetro(b, h);
         }
 
-        public void Area(float a, float b)
+        public static void Area(float a, float b)
         {
             Console.WriteLine("El area es "+ a*b);
         }
 
-        public void Perimetro(float a,float b)
+        public static void Perimetro(float a,float b)
         {
             Console.WriteLine("El perimetro es " + 2*(a + b));
         }

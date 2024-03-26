@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Ejer2
     {
-        public void Execute()
+        public static void Execute()
         {
             float b;
             float h;
@@ -15,10 +15,10 @@ namespace ConsoleApp1
             b = float.Parse(Console.ReadLine());
             Console.WriteLine("Escribe el numero de la altura del Triangulo");
             h = float.Parse(Console.ReadLine());
-            Area(b, h);
+            Ejer2.Area(b, h);
         }
 
-        public void Area(float a, float b)
+        public static void Area(float a, float b)
         {
             Console.WriteLine("El area es " + a * b / 2);
         }
