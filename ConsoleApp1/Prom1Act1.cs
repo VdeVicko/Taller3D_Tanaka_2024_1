@@ -5,7 +5,7 @@ using ConsoleApp1;
 
 namespace ConsoleApp1
 {
-    class Program
+    class Prom1Act1
     {
         static void Main(string[] args)
         {

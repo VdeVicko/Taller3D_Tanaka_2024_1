@@ -72,7 +72,7 @@ namespace ConsoleApp1
                         }
                         break;
                     case 3:
-                        Circulo.Execute();
+                        CirculoEjer6.Execute();
                         break;
                     case 4:
                         break;
