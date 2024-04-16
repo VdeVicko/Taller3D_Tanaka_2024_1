@@ -6,7 +6,7 @@ namespace ConsoleApp1.Clase02_Ejer2
 {
     class Program
     {
-        void Main(string[] args)
+        void Menu()
         {
             bool contin = true;
             Console.WriteLine("Bienvenido a la Tienda de armas. Cuanto dinero tienes?");

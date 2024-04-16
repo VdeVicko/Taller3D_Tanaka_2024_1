@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp1.Clase02_Ejer1
 {
-    class Program
+    class Menu
     {
-        void Main(string[] args)
+        void menu()
         {
             int choice;
             bool contin = true;

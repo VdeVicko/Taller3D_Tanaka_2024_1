@@ -7,7 +7,7 @@ namespace ConsoleApp1.Clase01
 {
     class Prom1Act1
     {
-        static void Main(string[] args)
+         
         {
             int choice;
             Console.WriteLine("Hey");

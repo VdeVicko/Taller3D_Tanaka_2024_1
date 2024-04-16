@@ -6,7 +6,7 @@ namespace ConsoleApp1.Clase01
 {
     class Prom1Act1POO
     {
-        static void Main(string[] args)
+        static void MenuPOO()
         {
             float b;
             float h;
